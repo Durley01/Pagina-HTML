@@ -6,54 +6,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap" rel="stylesheet">
     <title>Moda, belleza y Salud</title>
 </head>
 
 <body>
-     <!--Logo-->
-            <!--Imagen de archivo-->
-            <a href="Logo">  
-                <img src="Imagenes/Logo Moda, belleza y salud.jpg" >
-          </a>
-            
+
+
     <!--header-->
-<div>
+    <div>
         <header>
             <h1 class="titulo">MODA, BELLEZA Y SALUD</h1>
-            <img class= "Gym" src="Imagenes/Gym.jpg" >
-            
-            
-            
-           
+
+            <!--Logo-->
+            <!--Imagen de archivo-->
+
+            <a href="Logo">
+                <img class="logo" src="Imagenes/Logo Moda, belleza y salud.jpg">
+            </a>
 
             <!--Menú de navegación-->
-           
-<div id="barra">
-
-            <nav >
-
+            <nav>
                 <!--Enlaces entre páginas del sitio web-->
-                <ul>
-                    <li>
-                        <a href="Pagina1.html">Moda</a>
-                        <a href="Pagina2.html">Belleza</a>
-                        <a href="Pagina3.html">Enlaces de Interes</a>
-                        <a href="Videos.html">Videos</a>
-                    </li>
-                </ul>
+
+                <a href="Pagina1.html">Moda</a>
+                <a href="Pagina2.html">Belleza</a>
+                <a href="Pagina3.html">Enlaces de Interes</a>
+                <a href="Videos.html">Videos</a>
 
                 <input type="text">
             </nav>
-        </div>
-           
-                <!--Titulo de la Pagina-->
-                <texto class="textos"></texto>
-
-                <a href="#" class="boton"></a>
-            </div>
-        </header>
     </div>
-</div>
+
+
+    <div>
+        <a href="#" class="boton"></a>
+    </div>
+
+    </header>
+
     <main>
         <section class="Quienes-somos">
             <div class="contenedor">
@@ -70,39 +63,62 @@
         <br><br>
         <!--Imagenes web-->
         <section class="galeria">
-            <div class="imagenes">
-                <img src="https://img2.rtve.es/imagenes/the-weeknd-balvin-selena-gomez-megan-thee-stallion-the-weeknd-halsey-entre-otros/1600878847144.jpg"
-                    alt="300px" width="850px" height="500px" position="center">
-                
-                <img src="data:image/png;base64,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"
-                    alt="100px" width="400px" height="200px" position= "center">
+            <div class="Imagenes">
+                <img src="Imagenes/Moda.jpg" alt="">
             </div>
-            <br><br><br>
+            <div class="Imagenes">
+                <img src="Imagenes/sonrisa.jpg" alt="">
+            </div>
+            <div class="Imagenes">
+                <img src="Imagenes/Meditación.jpg" alt="">
+            </div>
+            <div class="Imagenes">
+                <img src="Imagenes/Spa.jpg" alt="">
+            </div>
+            <div class="Imagenes">
+                <img src="Imagenes/Salud.jpg" alt="">
+            </div>
         </section>
         <section>
             <!--formularios-->
-            <h3 class="formulario">Deja un Comentario</h3>
-            <form action="" method="get">
+            <div class="content">
+
+                <h3 class="formulario">Deja un Comentario</h3>
+                <form action="infomacion-basica"></form>
                 <label for="" Campo texto> </label>
                 <textarea name="" id="" cols="150" rows="10">Escribe aquí tu comentario</textarea>
-                <br><br><br>
+                <div class="">
+                    <label for="">Asunto</label>
+                    <input type="" class="">
 
-                <label for="">Nombre y Apellidos</label>
-                <input type="nombre y apellidos" Nombre y Apellidos (obligatorio)>
-                <label for="">Email</label>
-                <input type="email" E-mail>
-                <label for="">Teléfono</label>
-                <input type="number" Number>
-                <label for="">Dirección</label>
-                <input type="address" Address>
-                <br><br><br><br><br>
-                <!--Tabla-->
-                <table border="2">
+
+                    <label for="">Nombre y Apellidos</label>
+                    <input type="nombre y apellidos" Nombre y Apellidos (obligatorio)>
+
+                    <label for="">Email</label>
+                    <input type="email" class="field" E-mail>
+
+
+                    <label for="">Teléfono</label>
+                    <input type="number" class="field" Number>
+
+                </div>
+
+            </div>
+            <br><br><br>
+            <input type="Submit" value="Enviar Datos">
+            <br><br><br><br>
+            </div>
+
+            <!--Tabla-->
+            <table class="center">
+                
                     <tr>
                         <th>Información básica sobre Protección de Datos:</th>
                     </tr>
                     <tr>
-                        <td>En MBS LTDA, como responsable del tratamiento, utilizaremos la información que nos facilite
+                        <td class="center"> 
+                            <p>En MBS LTDA, como responsable del tratamiento, utilizaremos la información que nos facilite
                             para la
                             gestión de su actividad como usuario de este sitio web, así como atender y responder tanto a
                             las
@@ -118,30 +134,32 @@
                             rectificación,
                             oposición, supresión, limitación y portabilidad, como se explica en la información adicional
                             que
-                            hemos puesto a su disposición en nuestra Política de Privacidad y Cookies.</td>
+                            hemos puesto a su disposición en nuestra Política de Privacidad y Cookies.
+                        </p>
+                        </td>
                     </tr>
-                </table>
-
-                <br>
-
-                <label for="">Quiero recibir información sobre productos y servicios que me puedan beneficiar</label>
-                <input type="Button" Boton>
-                <br>
-                <label for="">He leido y acepto la política de Privacidad y Cookies</label>
-                <input type="Button" Boton>
-                </div>
+              
+            </table>
+            <br>
+            <label class="container">Quiero recibir información sobre productos y servicios que me puedan beneficiar
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            </label>
+            <label class="container">He leido y acepto la política de Privacidad y Cookies
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            </label>
+            </div>
         </section>
     </main>
     <br><br>
 
-    <input type="Submit" value="Enviar Datos">
-    <br><br><br><br>
 
-
-    <br><br>
     </form>
+    <br><br>
+    <footer>
+        <span>Copyright© 2021 MBS LTDA. Todos los derechos reservados.</span>
+    </footer>
 </body>
-<br><br>
-<span>Copyright© 2021 MBS LTDA. Todos los derechos reservados.</span>
 
 </html>

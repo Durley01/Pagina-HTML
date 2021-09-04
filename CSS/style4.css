@@ -128,6 +128,7 @@ p {
 li{
 text-align: left;
 font-weight: 300;
+margin: auto;
 }
 img {
     margin-left: 5%;
